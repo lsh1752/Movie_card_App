@@ -6,7 +6,7 @@ import Detail from "./routes/Detail"
 function App() {
 
   return(
-    <Router>
+    <Router basename="/Movie_card_App">
       <Routes>
 
         {/* 루트 경로 */}
